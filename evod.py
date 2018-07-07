@@ -1,5 +1,8 @@
-n=float(raw_input(""))
-if(n%2==0):
-  print("Even")
-elif(n%2!=0):
-  print("Odd")
+num = int(input())
+	if num>=0 and num<=10000 :
+	  if (num % 2) == 0:
+	    print("Even")
+	  else:
+	   print("Odd") 
+	else:
+	   print("invalid")
