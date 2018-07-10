@@ -1,5 +1,5 @@
 char=raw_input()
 if char.isalpha():
-   print("alphabet")
+   print("Alphabet")
 else:
    print("no")
