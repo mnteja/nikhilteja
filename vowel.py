@@ -1,7 +1,5 @@
-list["a","e","i","o","u"]
-x=raw_input("")
-print(x)
-if(x in list):
-   print("Vowel")
+x=str(raw_input())
+if x in['a','i','e','o','u']:
+   print"Vowel"
 else:
-   print("Consonant")
+   print"Consonant"
