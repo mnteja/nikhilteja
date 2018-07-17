@@ -1,7 +1,4 @@
-n=int(input())
-c=int(input())
+n,c=map(int,input().strip().split())
 for i in range(n+1,c):
- if(i%2!=0):
-	print(i)
- else:
-	print("")
+	if(i%2!=0):
+		print(i,end=" ")
