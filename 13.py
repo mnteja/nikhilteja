@@ -4,4 +4,4 @@ for i in range(2, int(n/2)):
         print("no")
         break
 else:
-print("yes")
+        print("yes")
