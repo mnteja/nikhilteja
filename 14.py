@@ -1,6 +1,6 @@
 n=int(input())
-v=int(input())
-for i in range(n+1,v):
+c=int(input())
+for i in range(n+1,c):
  if(i%2!=0):
 	print(i)
  else:
