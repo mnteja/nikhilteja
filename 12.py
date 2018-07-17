@@ -1,11 +1,12 @@
-n=int(raw_input())
-c=n
-rev=0
-while(n>0):
-    digit=n%10
-    rev=rev*10+digit
-    n=n//10
-if(c==rev):
-    print("yes")
+num=int(input())
+sum1=0
+n=num
+ 
+while num!=0:
+	rem=num%10
+	sum1=sum1*10+rem
+	num=num/10
+if sum1==n:
+	print  "yes"
 else:
-    print("no")
+print "not"
